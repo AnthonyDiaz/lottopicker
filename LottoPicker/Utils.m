@@ -67,7 +67,7 @@
         alertMessage = [NSString stringWithFormat:@"Winning Numbers: %@\nYou won $%ld", winingNumbers,(long)amountWon];
     }
     else{
-        alertMessage = [NSString stringWithFormat:@"Winning Numbers: %@\nYour numbers: %@", winingNumbers, userSelection];
+        alertMessage = [NSString stringWithFormat:@"Winning Numbers: %@\nYour numbers: %@\n\nTicket Price: $1.00", winingNumbers, userSelection];
     }
     
     return alertMessage;
